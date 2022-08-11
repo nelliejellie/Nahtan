@@ -21,8 +21,8 @@ const Navbar = () => {
               projects &&
               <div className='absolute w-36 h-36 border-0 border-[#E0E0E0] left-[82%] top-14 flex flex-col justify-end shadow-xl'>
                 <Link to="/projects/worldcitizen" className='border-b-2 border-red-500 m-1'>World Citizen</Link>
-                <Link to="/Blist" className='border-b-2 border-red-500 m-1'>Blist</Link>
-                <Link to="/Bangs!" className=' m-1'>Bangs!</Link>
+                <Link to="/projects/Blist" className='border-b-2 border-red-500 m-1'>Blist</Link>
+                <Link to="/projects/Bangs" className=' m-1'>Bangs</Link>
             </div>
             }
         </div>

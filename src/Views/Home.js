@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -31,7 +32,7 @@ const Home = () => {
                     <p className='text-sm'>Mobile design, Visual Design, Vacation App</p>
                     <p className='text-lg mb-16'>A case study on Vacation Bucketlist Application for explorers.</p>
                     <button className='bg-[#09A3F6] text-white p-2 rounded-lg w-1/3'>
-                        View Details
+                        <Link to='/projects/Blist'>View Details</Link>
                     </button>
                 </div>
             </div>
@@ -42,7 +43,7 @@ const Home = () => {
                     <p className='text-sm'>Mobile design, Visual Design, Vacation App</p>
                     <p className='text-lg mb-16'>A case study on Drezd platform for fashion goods.</p>
                     <button className='bg-[#5E60CE] text-white px-5 py-2 rounded-lg w-[40%]'>
-                        View Details
+                        <Link to='/projects/worldcitizen'>View Details</Link>
                     </button>
                 </div>
             </div>
@@ -53,7 +54,7 @@ const Home = () => {
                     <p className='text-sm'>Mobile design, Visual Design, Vacation App</p>
                     <p className='text-lg mb-16'>A case study on Vacation Bucketlist Application for explorers.</p>
                     <button className='bg-red-500 text-white p-2 rounded-lg w-1/3'>
-                        View Details
+                        <Link to='/projects/Bangs'>View Details</Link>
                     </button>
                 </div>
             </div>
